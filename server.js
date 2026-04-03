@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 5000;
 app.use(
   cors({
     origin: [
-      "https://jayson-quisquirin.vercel.app/",
-      "https://jayson-quisquirin-git-main-jaysonaquisquirin-5012s-projects.vercel.app/",
-      "https://jayson-quisquirin-m12cecw3e-jaysonaquisquirin-5012s-projects.vercel.app/",
+      "https://jayson-quisquirin.vercel.app",
+      "https://jayson-quisquirin-git-main-jaysonaquisquirin-5012s-projects.vercel.app",
+      "https://jayson-quisquirin-m12cecw3e-jaysonaquisquirin-5012s-projects.vercel.app",
     ],
   }),
 );
