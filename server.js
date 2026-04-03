@@ -12,7 +12,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://my-port-folio-two-ashy.vercel.app/",
+    origin:
+      "https://my-port-folio-r5hf6n6gc-jaysonaquisquirin-5012s-projects.vercel.app/",
   }),
 );
 app.use(express.json());
