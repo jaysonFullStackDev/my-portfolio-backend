@@ -20,7 +20,7 @@ app.use(express.json());
 
 const contactLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 2,
+  max: 5,
   message: "Too many messages from this IP, please try again later.",
 });
 
